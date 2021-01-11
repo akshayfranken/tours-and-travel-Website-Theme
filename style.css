@@ -1,0 +1,337 @@
+.menu{
+    top:0;
+    border:-1px solid blue;
+    height: 100px;
+    width: 100% ;
+    background: linear-gradient(to right,black,black);
+    margin-top: -8;
+    position:sticky;
+    z-index: 1;
+}
+#logo{
+    position:absolute;
+    font-size:40px;
+    font-family:serif;
+    color:magenta;
+    top:30px;
+    border-radius: 40px;
+    left:40px;
+    background: linear-gradient(to right, skyblue,pink);
+    padding-right:10px;
+    padding-left:10px;
+    font-style: oblique;
+    
+}
+.ullist{
+    text-align:right;
+    top:40px;
+    position:relative;
+}
+ul li {
+    display:inline-block;
+    margin-right:10px;
+    background-color:;
+    padding:0 6 0 6;
+    border-radius:10px;
+}
+ a{
+     font-family:sans-serif;
+    font-size:25px;
+    text-decoration:none;
+     color:white;
+}
+a:hover{
+    background-color:magenta;
+    color:white;
+    padding:4px;
+    border-radius:10px;
+}
+
+body{
+   /* background-image:url("img/slide-5.jpg" );
+    background-repeat: no-repeat;l*/
+    background-color:
+      
+}
+#heading{
+    padding-top:20px;
+   color:magenta;
+    text-align:center;
+    font-size:30px;
+    font-family: sans-serif;
+    font-style: oblique;
+}   
+#About{
+        margin-top:-25px;
+       background:linear-gradient(to top, #a953ff, #14eaff);
+    
+}   
+#About p{
+    font-size:20px;
+    margin-left:100px;
+    margin-right:100px;
+    color:black;
+    font-family: monospace;
+    padding-bottom:20px;
+}
+#slider{
+    
+}
+footer{
+    background:linear-gradient(to right,black,black);
+    width:100%;
+    height:50px;
+    border:1px solid blue;
+}
+footer li {
+    color:white;
+    margin-left:100px;
+    list-style: none;
+    margin-top:20px;
+    display:inline-block;
+}
+footer li a{
+    text-decoration:none;
+    color:white;
+    font-size:18px;
+    text-align: right;
+}
+footer #foomenu{
+        float:right;
+    font-size:16px;
+    padding-top:20px;
+}
+footer #foomenu span a{
+    font-size:16px;
+}
+#contact{
+    background:linear-gradient(to bottom,#a953ff,#14eaff);
+    width:100%;
+    height:700px;
+    
+}
+#contact h2{
+    color:cyan;
+    text-align: center;
+    font-size:30px;
+    font-family: sans-serif;
+    margin-top:20px;
+    padding-top:10px;
+}
+#contactpara{
+    font-size:20px;
+    margin-left: 50px;
+    background-color:greenyellow;
+    width:400px;
+    margin-right:800px;
+    padding: 20 20 20 20;
+    border-radius: 20px;
+    line-height:2;
+    font-family:sans-serif;
+    color:black; 
+    
+}
+
+#contact h3{
+    margin-top:50px;
+    margin-left:100px;
+    font-size:25px;
+    color:white;
+}
+
+#form{
+    background-color:yellow;
+    align-content: center;
+    padding-left:40px;
+    left:600px;
+    top:-300px;
+    width:250px;
+    height: 470px;
+    position: relative;
+}
+form input{
+    padding:4px;
+    font-size: 14px;
+    font-family: monospace;
+    font-style:italic
+}   
+#form form h2{
+    font-size:20px;
+    color:magenta;
+    background-color: black;
+    padding: 6px;
+    margin-right: 30px;
+    margin-bottom:-20px;
+}
+#form form p{
+    margin-bottom: 5px;
+    font-size:18px;
+    margin-top:5px;
+}
+#button{
+    margin-top:10px;
+    background: linear-gradient(130deg,red,orange); padding: 5 10 5 10;
+    font-family:monospace; color:white;
+    border-radius:20px;
+    border: 1px solid blue;
+    margin-left:20px;
+    font-size:18px;
+}
+#callbtn{
+    height:60px;    
+    width:60px;
+    float:right;
+}
+#callbtn img{
+    top:500px;
+    z-index: 2;
+    position: fixed;
+    
+}
+
+img[alt*="000webhost"],
+img[alt*="000webhost"][style],
+img[src*="000webhost"],
+img[src*="000webhost"][style],
+body > div:nth-last-of-type(1)[style]{
+	opacity: 0 !important;
+	pointer-events:none !important;
+	width: 0px !important;
+	height: 0px !important;
+	visibility:hidden !important;
+	display:none !important;
+}
+
+@media (max-width:600px){
+    .menu{
+        height: 80px;
+        background: linear-gradient(to right,black,black);
+
+}
+    #logo{
+         font-size:30px;
+         top:15px;
+         left:10px;
+    }
+    
+     a{
+    font-size:15px;
+}
+    .ullist{
+    text-align:right;
+    top:55px;
+    position:relative;
+}
+    #slider  img{
+        height:240px;
+    
+}
+    #About p {
+        height:160px;
+        font-size:15px;
+        margin-left:40px;
+        margin-right:40px;
+        margin-top:-10px;
+    
+}
+       #About  {
+      
+        margin-top:-30px;
+    
+}
+    #form{
+    left:100px;
+    width:250px;
+    height: 470px;
+    position: relative;
+        top:10px;
+}
+    #contact{
+    height:940px;
+    
+}
+    footer li {
+    margin-top:20px;
+        font-size:12px;
+        margin-left:10px;
+}
+footer li a{
+    font-size:12px;
+   
+}
+   footer #foomenu span a{
+    font-size:12px;
+}
+    #contactpara{
+    margin-left: 10px;
+}
+        
+}
+
+@media (max-width:400px){
+     #logo{
+         font-size:25px;
+         top:15px;
+         left:10px;}
+    
+     .ullist {
+    text-align:right;
+    top:50px;
+    position:relative;
+
+}
+    ul li {
+    display:;
+        float:left;
+        
+    margin-right:10px;
+    background-color:;
+    padding:0 2 0 2;
+    border-radius:10px;
+}
+        a{
+    font-size:14px;
+}
+     #About p {
+        height:200px;
+        font-size:14px;
+        margin-left:40px;
+        margin-right:40px;
+        margin-top:-10px;
+    
+}
+    #contactpara{
+    font-size:18px;
+    margin-left: 10px;
+    background-color:cyan;
+    width:280px;
+    margin-right:800px;
+    padding: 10 20 20 20;
+    border-radius: 20px;
+    line-height:2;
+}
+     #form{
+    left:30px;
+    width:250px;
+    height: 470px;
+    position: relative;
+        top:10px;
+}
+     #contact{
+    height:1100px;
+    
+}
+    
+       footer #foomenu{
+        float:right;
+    font-size:10px;
+    padding-top:1px;
+        
+           position: absolute;
+}
+footer #foomenu span a{
+    font-size:12px;
+}
+    
+}
+    
